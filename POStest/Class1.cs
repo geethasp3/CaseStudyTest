@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace POStest
 {
-    public class Class1
+    public class POSBaseClass
     {
+        public string urlstring="http://localhost:8088";
     }
 }
