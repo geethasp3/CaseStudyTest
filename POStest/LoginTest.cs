@@ -7,13 +7,15 @@ using System.Threading.Tasks;
 
 namespace POStest
 {
-    [TestFixtureSetUp]
+
     public class Logintest
     {
 
         public class LoginTest1 : POSBaseClass
         {
             public static string abc;
+
+            public static int ef;
         }
     }
 }
