@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OpenQA.Selenium;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,5 +10,7 @@ namespace POStest
     public class POSBaseClass
     {
         public string urlstring="http://localhost:8088";
+
+        public IWebDriver driver ;
     }
 }
