@@ -16,6 +16,8 @@ namespace POStest
             public static string abc;
 
             public static int ef;
+
+            public static int ghj;
         }
     }
 }
