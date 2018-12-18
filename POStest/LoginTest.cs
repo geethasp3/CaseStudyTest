@@ -11,10 +11,6 @@ namespace POStest
     public class Logintest
     {
 
-
-
-
-
         public class LoginTest1 : POSBaseClass
         {
             public static string abc;
