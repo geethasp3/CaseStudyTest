@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,17 +8,21 @@ using System.Threading.Tasks;
 
 namespace POStest
 {
-
-    public class Logintest
+   
+    public class Logintest:POSBaseClass
     {
 
-        public class LoginTest1 : POSBaseClass
+        [Test]
+        public void LoginTest1 ()
         {
-            public static string abc;
+            getdriver();
+        }
+        
 
-            public static int ef;
 
-            public static int ghj;
+            
+            
+
         }
     }
-}
+

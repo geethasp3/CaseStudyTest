@@ -13,7 +13,14 @@ namespace POStest
     {
         public string urlstring="http://localhost:8088";
 
-        public IWebDriver driver;
+        public static IWebDriver driver;
+
+
+     public IWebDriver  getdriver()
+        {
+
+        return    driver = new ChromeDriver();
+        }
 
 
 
