@@ -23,6 +23,11 @@ namespace POStest
         }
 
 
+        public static By Element (string ele)
+        {
+            return By.CssSelector(ele);
+
+        }
 
 
 

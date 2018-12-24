@@ -16,6 +16,7 @@ namespace POStest
         public void LoginTest1 ()
         {
             getdriver();
+            driver.Close();
         }
         
 
