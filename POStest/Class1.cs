@@ -14,6 +14,7 @@ namespace POStest
         public string urlstring="http://localhost:8088";
 
         public static IWebDriver driver;
+      public string abc;
 
 
      public IWebDriver  getdriver()
